@@ -1,14 +1,22 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-import {Camera, CameraOptions} from '@ionic-native/camera';
+
+import { Camera, CameraOptions } from '@ionic-native/camera';
 import { TabsPage } from '../pages/tabs/tabs';
-import { ListPage } from '../pages/list/list';
+import { LocationPage } from '../pages/location/location';
+import { LoginPage } from '../pages/login/login';
+import { PropertiesPage } from '../pages/properties/properties';
+import { CameraPage } from '../pages/camera/camera';
+import { SearchPage } from '../pages/search/search';
+
 
 @Component({
   templateUrl: 'app.html'
 })
+export class IconPage{}
+
 export class MyApp {
   rootPage:any = TabsPage;
 

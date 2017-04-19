@@ -7,7 +7,9 @@ import { SearchPage } from '../pages/search/search';
 import { CameraPage } from '../pages/camera/camera';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
-import { ListPage } from '../pages/list/list';
+import { LocationPage } from '../pages/location/location';
+import { LoginPage } from '../pages/login/login';
+import { PropertiesPage } from '../pages/properties/properties';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -19,8 +21,10 @@ import {Camera} from '@ionic-native/camera';
     SearchPage,
     CameraPage,
     HomePage,
-    ListPage,
-    TabsPage
+    TabsPage,
+    LocationPage,
+    LoginPage,
+    PropertiesPage
   ],
   imports: [
     BrowserModule,
@@ -32,8 +36,10 @@ import {Camera} from '@ionic-native/camera';
     SearchPage,
     CameraPage,
     HomePage,
-    ListPage,
-    TabsPage
+    TabsPage,
+    LocationPage,
+    LoginPage,
+    PropertiesPage
   ],
   providers: [
     StatusBar,
@@ -43,3 +49,4 @@ import {Camera} from '@ionic-native/camera';
   ]
 })
 export class AppModule {}
+export class AppComponent {}
